@@ -16,4 +16,47 @@
 - Git & GitHub για διαχείριση εκδόσεων
 
 ## Δομή Αρχείων
+```
+src/
+│
+├── homeDir/
+│ ├── index.html
+│ ├── home.css
+│ └── home.js
+│
+├── aboutDir/
+│ ├── about.html
+│ ├── about.css
+│ └── about.js
+│
+├── contactDir/
+│ ├── contact.html
+│ ├── contact.css
+│ └── contact.js
+│
+├── portfolioDir/
+│ ├── portfolio.html
+│ ├── portfolio.css
+│ └── portfolio.js
+│
+├── galleryDir/
+│ ├── gallery.html
+│ ├── gallery.css
+│ └── gallery.js
+│
+└── globalStyles/
+├── global.css
+└── navbar.css
+```
+
+## Οδηγίες Εκτέλεσης
+
+1. Ανοίξτε το έργο σε έναν browser.
+2. Χρησιμοποιήστε τα αρχεία HTML για να περιηγηθείτε στις διαφορετικές σελίδες.
+3. Η φόρμα επικοινωνίας ελέγχει τα υποχρεωτικά πεδία και εμφανίζει μήνυμα επιτυχίας μετά την αποστολή.
+
+## Σημειώσεις
+
+- Ο ιστότοπος είναι **minimalistic και responsive**, με σύγχρονο design.
+- Χρησιμοποιείται κοινόχρηστη τυπογραφία και χρώματα για ομοιομορφία σε όλες τις σελίδες.
 
