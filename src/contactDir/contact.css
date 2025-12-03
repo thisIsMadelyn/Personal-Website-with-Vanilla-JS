@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    background-image: url(../images/αρχείο\ λήψης\ \(3\).jpg);
+    background-position: center center; /* center the image */
+    background-size: cover;             /* scale to cover the entire viewport */
+    background-repeat: no-repeat;       /* prevent repeating */
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ========== CONTACT FORM ========== */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+
+.contact-box {
+   width: 90%;
+   max-width: 600px;
+   background: rgba(0, 0, 0, 0.6);
+   padding: 40px;
+   border-radius: 25px;
+   text-align: center;
+   color: white;
+}
+
+.contact-box h1 {
+    margin-bottom: 30px;
+    font-size: clamp(32px, 5vw, 48px);
+}
+
+.contact-box input,
+.contact-box textarea { 
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-box button{
+    padding: 12px 30px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}

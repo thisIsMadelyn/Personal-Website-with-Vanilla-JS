@@ -1,0 +1,63 @@
+/* ========== FOOTER ========== */
+
+.footer {
+    background: transparent;
+    padding: 30px 0;
+    width: 100%;
+    border-top: none;
+    margin-top: 40px;
+}
+
+.footer-content {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.footer-content p {
+    margin: 4px 0;
+    color: white;
+}
+
+.footer-content p:first-child {
+    font-weight: bold;
+    color: white;
+}
+
+/* ========== SOCIAL MEDIA LINKS ========== */
+
+.footer-content {
+    text-align: center;
+    color: #555;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.footer-content p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover svg {
+    transform: scale(1.2);
+    fill: rgba(211, 100, 189, 0.641); 
+}
+
+.social-icons svg {
+    width: 30px;
+    height: 30px;
+    fill: white; 
+}

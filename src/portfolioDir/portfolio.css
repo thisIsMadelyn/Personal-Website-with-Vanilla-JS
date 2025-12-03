@@ -1,0 +1,9 @@
+html {
+    height: 100%;
+    background-image: url(../images/αρχείο\ λήψης\ \(3\).jpg);
+    background-position: center center; /* center the image */
+    background-size: cover;             /* scale to cover the entire viewport */
+    background-repeat: no-repeat;       /* prevent repeating */
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
